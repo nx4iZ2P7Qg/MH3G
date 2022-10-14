@@ -1,0 +1,115 @@
+我的环境
+    台式 PC
+        AMD R5 3600
+        16G DDR4
+    XBOX ONE S 手柄
+    电信有线 300M/30M 网络连接
+
+
+为什么会有 4G XX 的内容
+    都是 citra 模拟，有值得借鉴的地方
+    如果同时玩3部作品，设置可能有冲突
+
+
+模拟器
+    https://citra-emu.org/
+        尽量使用官方资源，来历不明的版本可能有隐患，如果下载有困难请在群内寻找
+        支持 windows, mac, linux, 安卓
+    硬件要求
+        https://citra-emu.org/wiki/faq/
+        足够的单核性能，不低于 1800
+            https://www.cpubenchmark.net/singleThread.html
+        显卡 OpenGL 驱动
+            windows 平台，N卡，A卡(驱动22.7.1及以上)，I卡
+    设置
+        手柄
+            automap 自动完成设置
+            如果人物移动只有8个方向不丝滑，是摇杆设置方式不对
+        触控
+            长360 宽240
+            可以使用 L2 R2 L3 R3 SELECT 映射触摸板的位置，我的推荐
+
+
+镜像
+    群文件
+    oldmanemu.net 下载
+    没有升级补丁
+
+
+作弊码
+    必须使用，否则游戏速度很慢
+    找到文件 0004000000048100.txt，复制到 C:\Users\{你}\AppData\Roaming\Citra\cheats\
+
+
+外接手柄
+    最初 3DS 没有 L2 R2 右摇杆
+
+
+游戏设置
+    外接手柄 ON，结合前面 citra 手柄设置，可以使用 C-Stick 控制方向
+
+
+下载
+    找到文件 "3g4g特典及配信任务.zip"，解压，将 usr 里面的 sdmc 复制到
+    C:\Users\{你}\AppData\Roaming\Citra\
+    确认安装的方法
+        集会所选择活动任务，有对应任务，下上G都有
+        游戏标题选择下载，会检查特典、活动任务、猫，仔细看，看完会卡住，需要重新开游戏
+
+护石
+    3G 创建存档时从14张护石表里随机选1张，其余表的护石这个存档不可能获得
+    我建议无所谓护石表，修改神护，查找文件 "mh3g存档修改工具.zip"
+    你也可以先找自己想要的护石在哪个表，创建存档来确认，然后花一定时间（几周？）手动挖到神护，但到了4G XX 冰原 曙光，你未必想再来一遍
+    3G 有 BUG，有些护石表无法获得神岛
+    匠5属7在T10
+
+
+存档位置
+    MH3G
+        C:\Users\{你}\AppData\Roaming\Citra\sdmc\Nintendo 3DS\00000000000000000000000000000000\00000000000000000000000000000000\title\00040000\00048100\data\00000001\
+        user1   一号档位
+        system  特典文件
+    MH4G
+        C:\Users\{你}\AppData\Roaming\Citra\sdmc\Nintendo 3DS\00000000000000000000000000000000\00000000000000000000000000000000\title\00040000\0011d700\data\00000001\
+    MHXX
+        extdata 里面
+        C:\Users\{你}\AppData\Roaming\Citra\sdmc\Nintendo 3DS\00000000000000000000000000000000\00000000000000000000000000000000\extdata\00000000\00001971\user\system
+    手机找到 sdmc 的位置，后面是一样的
+
+
+存档备份
+    如果存档坏了丢了，你觉得是个重新开荒的好机会，跳过这一节
+    如果你觉得不能接受，那么建议每周、至少每月，备份数据
+    存档位置 C:\Users\{你}\AppData\Roaming\Citra\sdmc，里面包含存档，好友名片，下载内容
+    定期将存档转移到云上（建议阿里云），并标注日期，有备无患
+
+
+wiki
+    找到文件 "PC端3g dex工具书.zip"
+    找不到的资料可以试试日文 wiki
+
+
+配装
+    找到文件 "pc打开配装器必备.rar"，解压，安装
+    找到文件 "GANSIMU_MH3G_0.9.5.zip"，解压
+
+
+在线功能
+
+
+联机
+    控区
+        第一个进入怪物所在区域的玩家，会进入控区状态，你掉线怪物就会卡住，任务无法完成
+    尸体
+        离开在线集会前礼貌性地离线，这样房间内不会留下自己的账号占用别人的位置
+
+
+瘸腿合集
+    不妨看看怪物们的死相，感谢 11451四
+    https://www.bilibili.com/video/BV1DV4y15788
+    煌黑龙不会瘸腿
+
+
+citra 自定义主副窗口位置
+    https://www.reddit.com/r/Citra/comments/afsq4a/various_custom_screen_layouts/
+    @1337244014
