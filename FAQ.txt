@@ -31,7 +31,7 @@
             如果人物移动只有8个方向不丝滑，是摇杆设置方式不对，要选择 设置模拟摇杆
         触控
             可以让手柄没使用的 L2 R2 L3 R3 SELECT 映射触摸板的位置
-            我的推荐如图 citra配置_控制_触控映射.png citra配置_控制触控.png
+            我的推荐如图 citra配置_控制_触控映射.png citra配置_控制_触控.png
             这样的好处是，Select 对应踢脚与跳过动画键
             只有一个怪物时，L3 R3 都可以锁定
             双怪同场时，L3 锁定左怪，R3 锁定右怪
@@ -83,16 +83,15 @@ HD 版
 
 
 BUG
-    https://w.atwiki.jp/mh3g/pages/155.html
-    todo
-    http://www.k73.com/3ds/9567.html
+    日文  https://w.atwiki.jp/mh3g/pages/155.html
+    中文  http://www.k73.com/3ds/9567.html
     传闻有些护石表无法获得锈块，太古之块无法鉴定出神岛
     全清港口任务后才去打村煌黑, 会无法获得「天地狩猎之霸纹」的勋章，在港做任意任务可出
     装备配置 09~14 按十字下，同时按触摸板 17~24，可以看到通常不存在的 25~32 栏位，使用这些栏位将影响存档数据（讨伐数，装备栏）
     装备雷狼龙相关的重弩，去武器店，武器生产中 ヒドゥンスナイパー、 ギリースナイパー、潜砲ハープール 处键按2次 x 会死机
     村下位大海龙任务如果怪物卡住无法前进，攻击它打出硬直可破
     先打完斗技场（12*5），再升级探险船（稀少品交易），否则剑圣耳环、增弹耳环无法获得，如果已经是事实，建议修改
-    有些护石表无法获得神岛
+    重弩水中往前回避，途中按下 X + A，可以蹲射所有子弹（不一定出现）
 
 
 存档位置
@@ -134,8 +133,7 @@ wiki
 
 一些术语
     解禁
-        todo
-        完成紧急任务炼黑龙，HR突破限制，从7变成与 HRP 实际对应的 HR，30左右
+        完成港 8★黑焰盛燃，灾厄无尽，HR 突破限制，从7变成与 HRP 实际对应的 HR
     出片
         狩猎过程录视频发网站
     军事化狩猎
@@ -152,7 +150,13 @@ wiki
 
 常用道具
     秘药
-        todo
+        营养剂Ｇ + 曼陀罗
+            营养剂Ｇ
+                营养剂 + 蜂蜜
+                    营养剂  行商 760
+                        蓝蘑菇 + 不死虫   行商 24 + 420
+                    蜂蜜    行商 90
+            曼陀罗  行商 400
     烤熟的肉
         本作没有 NPC 批量烤肉功能
         获得烤肉面具后，给跟班装上，将生肉交给它，进任务过阵子可以获得
@@ -266,6 +270,7 @@ HRP 超过 4000 的任务，其他高难度任务也有不错的 HRP
 
 细节
     男女装备名称不完全相同，比如男装太阳神，女装月神（感谢 王大）
+    跟班面具最高5级，1个任务中给2个烤熟的肉能加快熟练度上升
     地图资源采集点，有部分随机资源每隔一段时间会刷新
     少数G级怪有新招式
     同场的怪物有相互伤害判定，比如恐暴踩死狗龙，任务会结算狗龙
@@ -296,9 +301,35 @@ HRP 超过 4000 的任务，其他高难度任务也有不错的 HRP
 
 
 citra 自定义主副窗口位置
-    todo
     https://www.reddit.com/r/Citra/comments/afsq4a/various_custom_screen_layouts/
-    @1337244014
+    打开 C:\Users\{你}\Appdata\Roaming\Citra\config\qt-config.ini
+    找到 [Layout] 部分
+    删除 custom_ 开头的内容
+    复制以下内容到删除的位置
+
+    预览 layout_1.jpg layout_2.jpg
+    custom_layout=true
+    custom_top_left=6
+    custom_top_top=130
+    custom_top_right=1350
+    custom_top_bottom=950
+    custom_bottom_left=1356
+    custom_bottom_top=300
+    custom_bottom_right=1920
+    custom_bottom_bottom=725
+
+    预览 layout_3.jpg layout_4.jpg
+    custom_layout=true
+    custom_top_left=79
+    custom_top_top=3
+    custom_top_right=1841
+    custom_top_bottom=1078
+    custom_bottom_left=1559
+    custom_bottom_top=865
+    custom_bottom_right=1841
+    custom_bottom_bottom=1078
+
+    以上都不满意的情况下，请自行根据 layout_5.jpg layout_6.jpg 修改
 
 
 猎人搜寻（ハンターサーチ）
