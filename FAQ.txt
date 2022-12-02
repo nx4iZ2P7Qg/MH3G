@@ -110,7 +110,8 @@ BUG
     MHXX
         extdata 里面
         C:\Users\{你}\AppData\Roaming\Citra\sdmc\Nintendo 3DS\00000000000000000000000000000000\00000000000000000000000000000000\extdata\00000000\00001971\user\system
-    手机找到 sdmc 的位置，后面是一样的
+    手机
+        /storage/emulated/0/citra-emu/sdmc，这是 sdmc 目录，后面请参考上面 pc 路径
 
 
 名片位置
