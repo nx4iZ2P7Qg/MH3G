@@ -2,7 +2,7 @@
     台式 PC
         AMD R5 3600
         16G DDR4
-    XBOX ONE S 手柄
+    八位堂猎户座 XBOX 认证手柄
     电信有线 300M/30M 网络连接
 
 
@@ -20,8 +20,9 @@
 模拟器
     https://citra-emu.org/
         尽量使用官方资源，来历不明的版本可能有隐患，如果下载有困难请在群内寻找
-        支持 android, windows, linux
-        不支持 Mac OS, iOS，短期内不会出现
+        支持 android, windows, linux, macOS
+        https://github.com/citra-emu/citra/wiki/Building-for-macOS
+        https://github.com/citra-emu/citra/wiki/Building-For-Linux
     硬件要求
         https://citra-emu.org/wiki/faq/
         CPU 需要足够的单核性能，不低于 1800
@@ -44,13 +45,13 @@
             L2 R2 未使用，游戏菜单 -> 设置 -> 外接手柄 可以定义它们的作用，请根据实际情况使用
 
 
-镜像
+游戏镜像
     群文件
     oldmanemu.net 下载
     没有升级补丁
 
 
-作弊码
+作弊码/金手指
     必须使用，否则游戏速度很慢
     找到文件 0004000000048100.txt，复制到 C:\Users\{你}\AppData\Roaming\Citra\cheats\
 
@@ -418,7 +419,6 @@ HRP 超过 4000 的任务，其他高难度任务也有不错的 HRP
     塔（月迅）右边角落有太古的龙骨，只在这里有
     HR100名字变紫色，HR999名字变水蓝色
     弓箭 R 瞄准，要等线出来以后，再上下调整方向，如果提前输入上下，会被判定为上下调整视角
-    采集任务2分钟后来猫票，猫的分配能手可破（鱼酒蒸）
     爆破属性对碎龙效果不好
     碎龙绿色粘液通过滚动3次可以消除，消臭玉可以消除，技能抗菌、生物博士可以无效化
     集会养了只食草龙，在武器店往右下走到尽头，每次任务后可以采集
